@@ -1,0 +1,611 @@
+[
+  {
+    "op": "core/multivalued-cell-split",
+    "description": "Split multi-valued cells in column Authors",
+    "columnName": "Authors",
+    "keyColumnName": "Title",
+    "mode": "separator",
+    "separator": "|",
+    "regex": false
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "description": "Join multi-valued cells in column Authors",
+    "columnName": "Authors",
+    "keyColumnName": "Title",
+    "separator": "|"
+  },
+  {
+    "op": "core/multivalued-cell-split",
+    "description": "Split multi-valued cells in column Subjects",
+    "columnName": "Subjects",
+    "keyColumnName": "Title",
+    "mode": "separator",
+    "separator": "|",
+    "regex": false
+  },
+  {
+    "op": "core/multivalued-cell-split",
+    "description": "Split multi-valued cells in column Authors",
+    "columnName": "Authors",
+    "keyColumnName": "Title",
+    "mode": "separator",
+    "separator": "|",
+    "regex": false
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "description": "Join multi-valued cells in column Authors",
+    "columnName": "Authors",
+    "keyColumnName": "Title",
+    "separator": "|"
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Language",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "Language",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "English"
+        ],
+        "to": "EN"
+      }
+    ]
+  },
+  {
+    "op": "core/multivalued-cell-split",
+    "description": "Split multi-valued cells in column Authors",
+    "columnName": "Authors",
+    "keyColumnName": "Title",
+    "mode": "separator",
+    "separator": "|",
+    "regex": false
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "description": "Join multi-valued cells in column Subjects",
+    "columnName": "Subjects",
+    "keyColumnName": "Title",
+    "separator": "|"
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Authors",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "Authors",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "R. A. Nagalakshmi",
+          "R.A. Nagalakshmi"
+        ],
+        "to": "R. A. Nagalakshmi"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "H. C. Devarajegowda",
+          "H.C. Devarajegowda"
+        ],
+        "to": "H. C. Devarajegowda"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "J. Kamal Raja",
+          "J. Kamalraja"
+        ],
+        "to": "J. Kamal Raja"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Sanchit Srivastav",
+          "Sanchit Srivastava"
+        ],
+        "to": "Sanchit Srivastav"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "R. V. Krishnakumar",
+          "R.V. Krishnakumar"
+        ],
+        "to": "R. V. Krishnakumar"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Edward R. T. Tiekink",
+          "Edward R.T. Tiekink"
+        ],
+        "to": "Edward R. T. Tiekink"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Feng Yan",
+          "Feng Yang"
+        ],
+        "to": "Feng Yan"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Y. AaminaNaaz",
+          "Y. Amina Naaz"
+        ],
+        "to": "Y. AaminaNaaz"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Chang-Ge Zheng",
+          "ChangGe Zheng"
+        ],
+        "to": "Chang-Ge Zheng"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Il'ya A. Gural'skiy",
+          "Il`ya A. Gural`skiy"
+        ],
+        "to": "Il'ya A. Gural'skiy"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Guo -Qing Jiang",
+          "Guo-Qing Jiang"
+        ],
+        "to": "Guo -Qing Jiang"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Jian-Chao Yuan",
+          "Jianchao Yuan"
+        ],
+        "to": "Jian-Chao Yuan"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "B. K. Revathi",
+          "B. K Revathi"
+        ],
+        "to": "B. K. Revathi"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Authors",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "Authors",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Sheng-Lan Zhao",
+          "Shenglan Zhao"
+        ],
+        "to": "Sheng-Lan Zhao"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Rongbin Huang",
+          "Rong-Bin Huang"
+        ],
+        "to": "Rong-Bin Huang"
+      }
+    ]
+  },
+  {
+    "op": "core/row-star",
+    "description": "Star rows",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "starred": true
+  },
+  {
+    "op": "core/row-star",
+    "description": "Star rows",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "starred": true
+  },
+  {
+    "op": "core/row-star",
+    "description": "Unstar rows",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "starred": false
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Publisher using expression value.trim()",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "Publisher",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Publisher using expression value.trim()",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "Publisher",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Title using expression grel:value.to.Titlecase()",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Akshantala Enterprises",
+                "l": "Akshantala Enterprises"
+              }
+            },
+            {
+              "v": {
+                "v": "Society of Pharmaceutical Technocrats",
+                "l": "Society of Pharmaceutical Technocrats"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Publisher",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Publisher"
+        }
+      ]
+    },
+    "columnName": "Title",
+    "expression": "grel:value.to.Titlecase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Title using expression grel:value.toTitlecase()",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Akshantala Enterprises",
+                "l": "Akshantala Enterprises"
+              }
+            },
+            {
+              "v": {
+                "v": "Society of Pharmaceutical Technocrats",
+                "l": "Society of Pharmaceutical Technocrats"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Publisher",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Publisher"
+        }
+      ]
+    },
+    "columnName": "Title",
+    "expression": "grel:value.toTitlecase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Date using expression grel:value.toDate(\"dd/mm/yyyy\")",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "Date",
+    "expression": "grel:value.toDate(\"dd/mm/yyyy\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Date using expression grel:value.toDate(\"dd/MM/yyyy\")",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "Date",
+    "expression": "grel:value.toDate(\"dd/MM/yyyy\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Date using expression grel:value.toDate(\"dd MMM yyyy\")",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "Date",
+    "expression": "grel:value.toDate(\"dd MMM yyyy\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Date using expression value.toDate()",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "Date",
+    "expression": "value.toDate()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Date using expression grel:value.toString(\"dd MMMM yyyy\")",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "Date",
+    "expression": "grel:value.toString(\"dd MMMM yyyy\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Authors using expression grel:value.match(/(.*),(.*)/).reverse().join(\" \")",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "grel:value.contains(\",\").toString()",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "true",
+                "l": "true"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Authors",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Authors"
+        }
+      ]
+    },
+    "columnName": "Authors",
+    "expression": "grel:value.match(/(.*),(.*)/).reverse().join(\" \")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-addition-by-fetching-urls",
+    "description": "Create column Journal Details at index 8 by fetching URLs based on column ISSNs using expression grel:\"https://api.crossref.org/journals/\" 2075-4418",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "row.starred",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Starred Rows",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": ""
+        }
+      ]
+    },
+    "newColumnName": "Journal Details",
+    "columnInsertIndex": 8,
+    "baseColumnName": "ISSNs",
+    "urlExpression": "grel:\"https://api.crossref.org/journals/\" 2075-4418",
+    "onError": "set-to-blank",
+    "delay": 5000,
+    "cacheResponses": true,
+    "httpHeadersJson": [
+      {
+        "name": "authorization",
+        "value": ""
+      },
+      {
+        "name": "user-agent",
+        "value": "OpenRefine 3.0-beta [TRUNK]"
+      },
+      {
+        "name": "accept",
+        "value": "*/*"
+      }
+    ]
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column Publisher to type /organization/organization",
+    "columnName": "Publisher",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://refine.codefork.com/reconcile/viaf",
+      "identifierSpace": "http://rdf.freebase.com/ns/user/hangy/viaf",
+      "schemaSpace": "http://rdf.freebase.com/ns/type.object.id",
+      "type": {
+        "id": "/organization/organization",
+        "name": "Corporate Name"
+      },
+      "autoMatch": false,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item International Union of Crystallography. (158070937) for cells containing \"International Union of Crystallography\" in column Publisher",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "International Union of Crystallography",
+                "l": "International Union of Crystallography"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Publisher",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Publisher"
+        }
+      ]
+    },
+    "columnName": "Publisher",
+    "similarValue": "International Union of Crystallography",
+    "judgment": "matched",
+    "match": {
+      "id": "158070937",
+      "name": "International Union of Crystallography.",
+      "score": 0.9743589743589743,
+      "types": [
+        "/organization/organization"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column VIAF ID at index 10 based on column Publisher using expression grel:cell.recon.match.id",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "International Union of Crystallography",
+                "l": "International Union of Crystallography"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Publisher",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Publisher"
+        }
+      ]
+    },
+    "newColumnName": "VIAF ID",
+    "columnInsertIndex": 10,
+    "baseColumnName": "Publisher",
+    "expression": "grel:cell.recon.match.id",
+    "onError": "set-to-blank"
+  }
+]
