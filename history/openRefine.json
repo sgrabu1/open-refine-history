@@ -494,7 +494,7 @@
     "newColumnName": "Journal Details",
     "columnInsertIndex": 8,
     "baseColumnName": "ISSNs",
-    "urlExpression": "grel:\"https://api.crossref.org/journals/\" 2075-4418",
+    "urlExpression": "grel:\"https://api.crossref.org/journals/ISSN\" 2075-4418",
     "onError": "set-to-blank",
     "delay": 5000,
     "cacheResponses": true,
